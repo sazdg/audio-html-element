@@ -1,0 +1,46 @@
+#container {
+	background-color: #6be05c;
+	width: 50%;
+	border: 3px solid #000;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+}
+
+#play, #muto {
+	background-color: #6be05c;
+	border: 0;
+	padding: 5px;
+}
+
+#play-button, #volume-button {
+	background-color: #6be05c;
+	padding: 0;
+	margin: 5px;
+	border: 0;
+}
+
+#play:hover, #muto:hover {
+	background-color: #62C955;
+	border-radius: 30px;
+}
+
+.time {
+	color: #000;
+}
+
+
+#progress {
+	width: 80%;
+	height: 5px;
+	margin: 5px;
+	background-color: #30AC20;
+	border-radius: 20px;
+	cursor: pointer;
+}
+#bar {
+	height: 5px;
+	background-color: #185610;
+	width: 0;
+	border-radius: 20px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+	<title>PROVA AUDIO</title>
+	<link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<p>My audio element made with love</p>
+<div id="container">
+	<button type="button" onclick="togglePlay()" id="play-button"><img src="play.png" alt="" width="20" id="play"></button>
+	
+	<span id="current" class="time">0:00</span>/
+	<span id="duration" class="time">2:10</span>
+
+	<div id="progress">
+		<div id="bar"></div>
+	</div>
+
+	<audio id="audio"><source src="swim.mp3" type="audio/mpeg" >...</audio>
+
+
+	<button type="button" onclick="toggleMute()" id="volume-button"><img src="volume.png" alt="" width="20" id="muto"></button>
+	<br/>
+
+</div>
+
+<br/>
+<p>Real audio element html5</p>
+<audio controls>
+	<source src="swim.mp3" type="audio/mpeg">
+		Your browser doesnt support the audio element.
+</audio>
+
+<script src="audio.js"></script>
+</body>
+</html>
