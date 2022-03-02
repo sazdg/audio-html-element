@@ -11,22 +11,59 @@
 
 <p>My audio element made with love</p>
 <div id="container">
-	<button type="button" onclick="togglePlay()" id="play-button"><img src="play.png" alt="" width="20" id="play"></button>
+	<button type="button" onclick="togglePlay('audio')"  class="play-button"><img src="play.png" alt="" width="20" class="triangle" id="play"></button>
 	
 	<span id="current" class="time">0:00</span>/
 	<span id="duration" class="time">2:10</span>
 
-	<div id="progress">
-		<div id="bar"></div>
+	<div class="progress" id="progress">
+		<div class="bar" id="bar"></div>
 	</div>
 
-	<audio id="audio"><source src="swim.mp3" type="audio/mpeg" >...</audio>
+	<audio id="audio"><source src="swim.mp3" type="audio/mpeg">...</audio>
 
 
-	<button type="button" onclick="toggleMute()" id="volume-button"><img src="volume.png" alt="" width="20" id="muto"></button>
+	<button type="button" onclick="toggleMute('audio')" class="volume-button"><img src="volume.png" alt="" width="20" class="vol" id="muto"></button>
 	<br/>
 
 </div>
+<br/>
+<div id="container">
+	<button type="button" onclick="togglePlay('audio2')"  class="play-button"><img src="play.png" alt="" width="20" class="triangle" id="play2"></button>
+	
+	<span id="current2" class="time">0:00</span>/
+	<span id="duration" class="time">5:10</span>
+
+	<div class="progress" id="progress2">
+		<div class="bar" id="bar2"></div>
+	</div>
+
+	<audio id="audio2"><source src="insert-audio.mp3" type="audio/mpeg">...</audio>
+
+
+	<button type="button" onclick="toggleMute('audio2')" class="volume-button"><img src="volume.png" alt="" width="20" class="vol"  id="muto2"></button>
+	<br/>
+
+</div>
+<br/>
+<div id="container">
+	<button type="button" onclick="togglePlay('audio3')"  class="play-button"><img src="play.png" alt="" width="20" class="triangle" id="play3"></button>
+	
+	<span id="current3" class="time">0:00</span>/
+	<span id="duration" class="time">3:40</span>
+
+	<div class="progress" id="progress3">
+		<div class="bar" id="bar3"></div>
+	</div>
+
+	<audio id="audio3"><source src="insert-audio.mp3" type="audio/mpeg">...</audio>
+
+
+	<button type="button" onclick="toggleMute('audio3')"  class="volume-button"><img src="volume.png" alt="" width="20" class="vol" id="muto3"></button>
+	<br/>
+
+</div>
+
 
 <br/>
 <p>Real audio element html5</p>
